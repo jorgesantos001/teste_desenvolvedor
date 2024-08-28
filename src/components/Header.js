@@ -1,17 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-const Header = () => (
-  <header>
-    <div className="logo">Loja Virtual</div>
-    <nav>
-      <ul>
-        <li><Link to="/category1">Categoria 1</Link></li>
-        <li><Link to="/category2">Categoria 2</Link></li>
-        <li><Link to="/category3">Categoria 3</Link></li>
-      </ul>
-    </nav>
-  </header>
-);
+const Header = () => {
+  return (
+    <header className="p-4 bg-gray-800 text-white">
+      <div className="container mx-auto flex justify-between items-center">
+        <h1 className="text-2xl font-bold">Minha Loja</h1>
+        <nav>
+          <ul className="flex space-x-4">
+            <li><a href="#home" className="hover:underline">Home</a></li>
+            <li><a href="#products" className="hover:underline">Produtos</a></li>
+            <li><a href="#contact" className="hover:underline">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  );
+};
 
 export default Header;
