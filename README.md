@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Loja Virtual
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
 
-## Available Scripts
+Este projeto foi desenvolvido para um teste de um vaga de Desenvolvedor Front-End Júnior
 
-In the project directory, you can run:
+O projeto consiste em uma Loja Virtual desenvolvido com React e Tailwind CSS.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Tailwind CSS**: Framework de CSS utilitário para estilização rápida e personalizada.
+- **PostCSS**: Ferramenta para transformar o CSS com plugins.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalação
 
-### `npm test`
+1. Clone o repositório:
+   \`\`\`bash
+   git clone https://github.com/jorgesantos001/teste_desenvolvedor.git
+   \`\`\`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navegue até o diretório do projeto:
+   \`\`\`bash
+   cd loja-virtual
+   \`\`\`
 
-### `npm run build`
+3. Instale as dependências:
+   \`\`\`bash
+   npm install
+   \`\`\`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Uso
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para iniciar o servidor de desenvolvimento, execute:
+\`\`\`bash
+npm start
+\`\`\`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O projeto estará disponível em [http://localhost:3000](http://localhost:3000).
 
-### `npm run eject`
+## Scripts
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- \`start\`: Inicia o servidor de desenvolvimento.
+- \`build\`: Cria uma versão otimizada do projeto para produção.
+- \`test\`: Executa os testes.
+- \`eject\`: Ejetar a configuração padrão do Create React App.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Estrutura do Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **public/**: Contém arquivos estáticos.
+- **src/**: Contém os arquivos de código-fonte React.
+- **src/components/**: Contém componentes React reutilizáveis.
+- **src/index.css**: Arquivo CSS principal, configurado com Tailwind CSS.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contribuição
 
-## Learn More
+Sinta-se à vontade para contribuir com melhorias ou correções. Para contribuir:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Faça um fork do repositório.
+2. Crie uma branch para sua modificação.
+3. Faça commit das suas mudanças.
+4. Envie um pull request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licença
 
-### Code Splitting
+Este projeto é licenciado sob a [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contato
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para dúvidas ou mais informações, entre em contato pelo e-mail: patrociniojorgeluiz@gmail.com
