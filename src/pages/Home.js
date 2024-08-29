@@ -1,20 +1,18 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import ProductList from '../components/ProductList';
+import Card1 from '../components/Card1';
+import NewArrivals from '../components/NewArrivals';
+import ExploreSection from '../components/ExploreSection';
+import NewArrivalsSection from '../components/NewArrivalsSection';
 
-function Home() {
+const Home = () => {
   return (
-    <div className="home">
-      <Header />
-      <main className="main-content">
-        <h1>Bem-vindo à Loja!</h1>
-        <p>Navegue por nossa loja e aproveite as ofertas incríveis que preparamos para você!</p>
-        <ProductList />
-      </main>
-      <Footer />
+    <div>
+      <Card1 />
+      <NewArrivals />
+      <ExploreSection />
+      <NewArrivalsSection />
     </div>
   );
-}
+};
 
 export default Home;

@@ -33,19 +33,19 @@ const ProductList = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <div className="mb-4 flex justify-between items-center">
+      <div className="mb-4 flex flex-col md:flex-row justify-between items-center">
         <select onChange={handleSortChange} value={sortBy} className="p-2 border border-gray-300 rounded">
           <option value="name">Nome</option>
           <option value="price">Preço</option>
         </select>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {products.map(product => (
           <ProductItem key={product.id} product={product} />
         ))}
       </div>
-      <div className="mt-4 flex justify-between items-center">
-        <button onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage <= 1} className="bg-gray-800 text-white p-2 rounded">Anterior</button>
+      <div className="mt-4 flex flex-col md:flex-row justify-between items-center">
+        <button onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage <= 1} className="bg-gray-800 text-white p-2 rounded mb-2 md:mb-0">Anterior</button>
         <span>Página {currentPage} de {totalPages}</span>
         <button onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage >= totalPages} className="bg-gray-800 text-white p-2 rounded">Próximo</button>
       </div>
